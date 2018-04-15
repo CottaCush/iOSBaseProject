@@ -18,7 +18,7 @@ Run `git clone https://github.com/CottaCush/iOSBaseProject.git`
 - Open a terminal window, and `$ cd` into your project directory.
 - Run `$ pod install` if you are installing for the first time
 - You may require to run `$ pod update`
-- `$ open FBNInsurance.xcworkspace` and build.
+- `$ open iOSBaseProject.xcworkspace` and build.
 
 ### Pods
 
