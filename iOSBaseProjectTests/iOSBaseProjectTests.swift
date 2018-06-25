@@ -58,8 +58,8 @@ class iOSBaseProjectTests: XCTestCase {
 
     func test_string_to_date() {
         let givenDate = "2018-01-12"
-        debugPrint("Date Item")
-        debugPrint(givenDate.asDate)
+        XCTAssertEqual(givenDate.asDate, "12 January 2018")
+        XCTAssertNotEqual(givenDate.asDate, "January 12 2018")
     }
 
     
