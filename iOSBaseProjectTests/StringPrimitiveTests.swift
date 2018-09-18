@@ -1,15 +1,11 @@
-//
 //  iOSBaseProjectTests.swift
 //  iOSBaseProjectTests
-//
-//  Created by Jubril  EDU on 5/29/18.
-//  Copyright © 2018 Cotta & Cush. All rights reserved.
 //
 
 import XCTest
 import Foundation
 @testable import iOSBaseProject
-class iOSBaseProjectTests: XCTestCase {
+class StringPrimitiveTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -63,4 +59,37 @@ class iOSBaseProjectTests: XCTestCase {
     }
 
     
+}
+
+class DoublePrimitiveTests: XCTestCase {
+	override func setUp() {
+		super.setUp()
+		// Put setup code here. This method is called before the invocation of each test method in the class.
+	}
+	
+	override func tearDown() {
+		// Put teardown code here. This method is called after the invocation of each test method in the class.
+		super.tearDown()
+	}
+	
+	func testExample() {
+		// This is an example of a functional test case.
+		// Use XCTAssert and related functions to verify your tests produce the correct results.
+	}
+	
+	func testPerformanceExample() {
+		// This is an example of a performance test case.
+		self.measure {
+			// Put the code you want to measure the time of here.
+		}
+	}
+	
+	func test_double_short_currency_decription() {
+        let givenMillion:Double = 1000000.00
+        let givenThousand: Double = 900000.00
+        let givenBillion: Double = 1000000000.00
+        XCTAssertEqual(givenThousand.shortCurrencyDecription,"₦900K")
+        XCTAssertEqual(givenMillion.shortCurrencyDecription,"₦1M")
+        XCTAssertEqual(givenBillion.shortCurrencyDecription, "₦1B")
+	}
 }

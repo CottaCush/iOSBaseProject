@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		621DCA89DAB6FBEE1EB1894F /* Pods_iOSBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F749E4A9A58FEF4728587C /* Pods_iOSBaseProject.framework */; };
-		91FEBC5420BDAF090069B3F3 /* iOSBaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEBC5320BDAF090069B3F3 /* iOSBaseProjectTests.swift */; };
+		91FEBC5420BDAF090069B3F3 /* StringPrimitiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEBC5320BDAF090069B3F3 /* StringPrimitiveTests.swift */; };
 		C89F1C04208389F50089E306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C03208389F50089E306 /* AppDelegate.swift */; };
 		C89F1C06208389F50089E306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C05208389F50089E306 /* ViewController.swift */; };
 		C89F1C09208389F50089E306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89F1C07208389F50089E306 /* Main.storyboard */; };
@@ -43,7 +43,7 @@
 		0053CF8518D9F46A01537914 /* Pods-iOSBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBaseProject/Pods-iOSBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		50F749E4A9A58FEF4728587C /* Pods_iOSBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FEBC5120BDAF090069B3F3 /* iOSBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91FEBC5320BDAF090069B3F3 /* iOSBaseProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSBaseProjectTests.swift; sourceTree = "<group>"; };
+		91FEBC5320BDAF090069B3F3 /* StringPrimitiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPrimitiveTests.swift; sourceTree = "<group>"; };
 		91FEBC5520BDAF090069B3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C89F1C00208389F50089E306 /* iOSBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F1C03208389F50089E306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		91FEBC5220BDAF090069B3F3 /* iOSBaseProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				91FEBC5320BDAF090069B3F3 /* iOSBaseProjectTests.swift */,
+				91FEBC5320BDAF090069B3F3 /* StringPrimitiveTests.swift */,
 				91FEBC5520BDAF090069B3F3 /* Info.plist */,
 			);
 			path = iOSBaseProjectTests;
@@ -323,15 +323,17 @@
 				TargetAttributes = {
 					91FEBC5020BDAF090069B3F3 = {
 						CreatedOnToolsVersion = 9.3.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = C89F1BFF208389F50089E306;
 					};
 					C89F1BFF208389F50089E306 = {
 						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = C89F1BFB208389F50089E306 /* Build configuration list for PBXProject "iOSBaseProject" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -421,7 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FEBC5420BDAF090069B3F3 /* iOSBaseProjectTests.swift in Sources */,
+				91FEBC5420BDAF090069B3F3 /* StringPrimitiveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNTMDT5LW2;
 				INFOPLIST_FILE = iOSBaseProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cottacush.sample.iOSBaseProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -504,11 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNTMDT5LW2;
 				INFOPLIST_FILE = iOSBaseProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cottacush.sample.iOSBaseProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -568,10 +562,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.2;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -622,9 +616,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos11.2;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -639,12 +633,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNTMDT5LW2;
 				INFOPLIST_FILE = iOSBaseProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cottacush.iOSBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -658,10 +650,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNTMDT5LW2;
 				INFOPLIST_FILE = iOSBaseProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cottacush.iOSBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
