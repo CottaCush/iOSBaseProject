@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D3C7AB21771ED800E6E98C /* UITextFieldWithErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3C7AA21771ED800E6E98C /* UITextFieldWithErrorLabel.swift */; };
+		04D3C7AD21771F0B00E6E98C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3C7AC21771F0B00E6E98C /* UIViewController.swift */; };
+		04D3C7AF21771FA500E6E98C /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3C7AE21771FA500E6E98C /* UIView.swift */; };
+		04D3C7B1217720A200E6E98C /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3C7B0217720A200E6E98C /* BaseResponse.swift */; };
+		04D3C7B72177257C00E6E98C /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3C7B62177257C00E6E98C /* UIImage.swift */; };
 		621DCA89DAB6FBEE1EB1894F /* Pods_iOSBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F749E4A9A58FEF4728587C /* Pods_iOSBaseProject.framework */; };
 		C89F1C04208389F50089E306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C03208389F50089E306 /* AppDelegate.swift */; };
 		C89F1C06208389F50089E306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C05208389F50089E306 /* ViewController.swift */; };
@@ -18,7 +23,6 @@
 		C89F1C5020838EFC0089E306 /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C2920838EFB0089E306 /* ApiEndPoints.swift */; };
 		C89F1C5820838EFC0089E306 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C3320838EFC0089E306 /* LocalStorage.swift */; };
 		C89F1C5A20838EFC0089E306 /* StringLiterals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C3520838EFC0089E306 /* StringLiterals.swift */; };
-		C89F1C7B208390AB0089E306 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C71208390AA0089E306 /* UIImage.swift */; };
 		C89F1C7E208390AB0089E306 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C74208390AA0089E306 /* Date.swift */; };
 		C89F1C81208390AB0089E306 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C77208390AB0089E306 /* UILabel.swift */; };
 		C89F1C82208390AB0089E306 /* PrimitiveTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F1C78208390AB0089E306 /* PrimitiveTypes.swift */; };
@@ -30,6 +34,11 @@
 
 /* Begin PBXFileReference section */
 		0053CF8518D9F46A01537914 /* Pods-iOSBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBaseProject/Pods-iOSBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		04D3C7AA21771ED800E6E98C /* UITextFieldWithErrorLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldWithErrorLabel.swift; sourceTree = "<group>"; };
+		04D3C7AC21771F0B00E6E98C /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		04D3C7AE21771FA500E6E98C /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		04D3C7B0217720A200E6E98C /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		04D3C7B62177257C00E6E98C /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		50F749E4A9A58FEF4728587C /* Pods_iOSBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F1C00208389F50089E306 /* iOSBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F1C03208389F50089E306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +52,6 @@
 		C89F1C2920838EFB0089E306 /* ApiEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
 		C89F1C3320838EFC0089E306 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		C89F1C3520838EFC0089E306 /* StringLiterals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLiterals.swift; sourceTree = "<group>"; };
-		C89F1C71208390AA0089E306 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		C89F1C74208390AA0089E306 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		C89F1C77208390AB0089E306 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		C89F1C78208390AB0089E306 /* PrimitiveTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimitiveTypes.swift; sourceTree = "<group>"; };
@@ -147,9 +155,12 @@
 			children = (
 				C89F1C74208390AA0089E306 /* Date.swift */,
 				C89F1C78208390AB0089E306 /* PrimitiveTypes.swift */,
-				C89F1C71208390AA0089E306 /* UIImage.swift */,
+				04D3C7B62177257C00E6E98C /* UIImage.swift */,
 				C89F1C77208390AB0089E306 /* UILabel.swift */,
 				C89F1C7A208390AB0089E306 /* UITextView.swift */,
+				04D3C7AA21771ED800E6E98C /* UITextFieldWithErrorLabel.swift */,
+				04D3C7AC21771F0B00E6E98C /* UIViewController.swift */,
+				04D3C7AE21771FA500E6E98C /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -225,6 +236,7 @@
 		C89F1C4120838EFC0089E306 /* ResponseModel */ = {
 			isa = PBXGroup;
 			children = (
+				04D3C7B0217720A200E6E98C /* BaseResponse.swift */,
 			);
 			path = ResponseModel;
 			sourceTree = "<group>";
@@ -361,18 +373,22 @@
 			files = (
 				C89F1C4F20838EFC0089E306 /* ApiConstants.swift in Sources */,
 				C89F1C81208390AB0089E306 /* UILabel.swift in Sources */,
-				C89F1C7B208390AB0089E306 /* UIImage.swift in Sources */,
 				C89F1C84208390AB0089E306 /* UITextView.swift in Sources */,
 				C89F1C06208389F50089E306 /* ViewController.swift in Sources */,
 				C89F1C8B208392230089E306 /* BaseViewController.swift in Sources */,
+				04D3C7B1217720A200E6E98C /* BaseResponse.swift in Sources */,
 				C89F1C2620838E9E0089E306 /* Identifiers.swift in Sources */,
 				C89F1C5A20838EFC0089E306 /* StringLiterals.swift in Sources */,
+				04D3C7AB21771ED800E6E98C /* UITextFieldWithErrorLabel.swift in Sources */,
+				04D3C7AD21771F0B00E6E98C /* UIViewController.swift in Sources */,
 				C89F1C89208392230089E306 /* BaseContract.swift in Sources */,
 				C89F1C04208389F50089E306 /* AppDelegate.swift in Sources */,
 				C89F1C7E208390AB0089E306 /* Date.swift in Sources */,
 				C89F1C5020838EFC0089E306 /* ApiEndPoints.swift in Sources */,
 				C89F1C82208390AB0089E306 /* PrimitiveTypes.swift in Sources */,
 				C89F1C5820838EFC0089E306 /* LocalStorage.swift in Sources */,
+				04D3C7B72177257C00E6E98C /* UIImage.swift in Sources */,
+				04D3C7AF21771FA500E6E98C /* UIView.swift in Sources */,
 				C89F1C8A208392230089E306 /* BaseUIViewController+BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
