@@ -68,7 +68,7 @@ Run `git clone https://github.com/CottaCush/iOSBaseProject.git`
 
 ### Upload to TestFlight 1.0 ###
 
-- Add the OptionsPlist file and the buildscript.sh file to the root directry of your project
+- Add the OptionsPlist file and the buildscript.sh file to the root directory of your project ( curl -L -O [link/to/raw/file] )
 
 - Ensure to set up your project to be useful with  xcode build tools as itemised [here](https://docs.google.com/document/d/1fCXVenGy4BjLDUWLgHHC-26ZsCq_MRt9QBAqDu8K2bQ/edit)
 
