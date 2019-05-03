@@ -26,7 +26,7 @@ read -p  "enter app scheme : `echo $'\n> '`" appScheme
 # echo Input new version number format x.y! or retain old version of same format!
 # read versionNumber
 
-read -p "Input new version number format x.y! or retain old version of same format! : `echo $'\n> '`" versionNumber
+read -p "Input new version number format x.y.z or retain old version of same format! : `echo $'\n> '`" versionNumber
 echo updating version number..
 agvtool new-marketing-version $versionNumber > cottylane.txt #Updates Version Number to specific version format is versionnumber(buildnumber)
 echo Resetting build number to 1 for new release..
@@ -73,7 +73,7 @@ echo exporting  IPA of  version $fullversion ..
  else echo export of IPA failed..
  fi
 
-echo One Time Password is needed #generate OTP from appleid.apple.com
+echo App-specific Password is needed #generate OTP from appleid.apple.com; from the security section click Generate Passwords and use FBNIIOS as app password,
 read OTP
 
 	if  upload; then  echo IPA file has been uploaded to TestFlight
